@@ -69,7 +69,7 @@ export default function Home() {
 
         <section>
           <div >
-            <h3 className="text-3xl py-3 dark:text-white">Intrests</h3>
+            <h3 className="text-3xl py-3 dark:text-white">Interests</h3>
             <p className ="text-md py-2 leading-8 text-gray-800 dark:text-white">
               I want to go into software engineering because I enjoy problem-solving and have an interest in technology and its potential to make a positive impact on society. I have done work in
               <span className="text-teal-500"> robotics </span>
@@ -132,7 +132,7 @@ export default function Home() {
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap rounded-lg object-cover">
             <div className = "basis-1/3 flex-1"><Image src={web1} className = "rounded-lg object-cover" width={"100%"} height={"100"} layout={"responsive"}/></div>
             <div className = "basis-1/3 flex-1"><Image src={web2} className = "rounded-lg object-cover" width={"100%"} height={"100"} layout={"responsive"}/></div>
-            <div className = "basis-1/3 flex-1"><Image src={web3} className = "rounded-lg object-cover" width={"100%"} height={"100"} layout={"responsive"}/></div>
+            <div className = "basis-1/5 flex-1"><Image src={web3} className = "rounded-lg object-cover" width={"100%"} height={"100"} layout={"responsive"}/></div>
             <div className = "basis-1/3 flex-1"><Image src={web4} className = "rounded-lg object-cover" width={"100%"} height={"100"} layout={"responsive"}/></div>
             <div className = "basis-1/3 flex-1"><Image src={web5} className = "rounded-lg object-cover" width={"100%"} height={"100"} layout={"responsive"}/></div>
             <div className = "basis-1/3 flex-1"><Image src={web6} className = "rounded-lg object-cover" width={"100%"} height={"100"} layout={"responsive"}/></div>
